@@ -11,9 +11,10 @@ cog_hole = 1;       // Diameter of hole at CoG. 0 To disable.
 
 // Tail support settings
 use_tail_support = true;
-support_width = 3.2;               // Width of tail support
+support_width = 10;                 // Width of tail support
+support_length = 20;                // Length of tail support
 support_spacing = boom_size + 0.35; // Spacing between support elements
-support_height = boom_size / 3;    // Height of tail support
+support_height = boom_size / 2.5;     // Height of tail support
 
 use_cable_hole = true;  // Whether to draw cable routing hole or not
 
@@ -184,10 +185,10 @@ module make_holes() {
 module tail_support() {
     translate([50, 0, height]) {
         translate([-support_spacing / 2 - support_width, 0, 0])
-            cube([support_width, 15, support_height]);
+            cube([support_width, support_length, support_height]);
 
         translate([support_spacing / 2, 0, 0])
-            cube([support_width, 15, support_height]);
+            cube([support_width, support_length, support_height]);
     }
 }
 
