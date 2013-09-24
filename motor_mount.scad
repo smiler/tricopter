@@ -1,7 +1,7 @@
 $fn = 90;
 
 // Dimensions
-motor_base_height = 3;          // Height of motor mount base
+motor_base_height = 4;          // Height of motor mount base
 motor_mount_diameter = 32;      // Diameter of motor mounting base
 motor_mount_hole = 3.3;         // Diameter of motor mounting holes
 motor_center_hole_diameter = 10; // Diameter of center hole. Set to 0 to disable
