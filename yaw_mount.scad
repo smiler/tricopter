@@ -1,7 +1,7 @@
 $fn = 90;
 
 // Dimensions
-motor_base_height = 5;          // Height of motor mount base
+motor_base_height = 3;          // Height of motor mount base
 motor_mount_width = 41;         // Width of motor mount base
 motor_mount_hole = 3.2;         // Diameter of motor mounting holes
 motor_mount_hole_spacing = 34;  // Diameter between motor mounting holes (center to center)
@@ -18,7 +18,7 @@ hinge_base_height = 7;       // Height of hinge base
 motor_hinge_base_height = 9; // Height of hinge on motor mounts
 hinge_base_play = 0.4;       // Play between hinge interlock.
 hinge_pin_diameter = 4.1;    // Diameter of hinge pin. Used as radius for the smaller hole
-hinge_pin_outer_hole = 4.3;  // Diameter of the larger hinge pin hole
+hinge_pin_outer_hole = 4.5;  // Diameter of the larger hinge pin hole
 
 servo_mount_support_height = 4;
 
