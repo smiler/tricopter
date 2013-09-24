@@ -2,9 +2,9 @@ $fn = 90;
 
 base_height = 3; // Height of base plate
 
-plate_width = 40;       // Width of plate that holder will be mounted on. 
+plate_width = 40;       // Width of plate that holder will be mounted on.
 plate_hole_offset  = 2; // I use small cutouts on my plate to prevent slipping.
-                        // The value here will be substracted from the 
+                        // The value here will be substracted from the
                         // platewidth when calucalting hole position.
 
 gopro_angle = 10; // Angle of gopro mount plate
@@ -43,7 +43,7 @@ module base_plate() {
 
                         // Holes
                         translate([0, (10 - zip_hole_width) / 2, -0.2]) {
-                            
+
                             // Left
                             translate([zip_hole_height + plate_hole_offset, 0, 0])
                                 cube([zip_hole_height, zip_hole_width, base_height + 0.4]);
@@ -63,7 +63,7 @@ module base_plate() {
 
                         // Holes
                         translate([0, (10 - zip_hole_width) / 2, -0.2]) {
-                            
+
                             // Left
                             translate([zip_hole_height + plate_hole_offset, 0, 0])
                                 cube([zip_hole_height, zip_hole_width, base_height + 0.4]);
@@ -77,7 +77,7 @@ module base_plate() {
 
             }
         }
-        
+
         // CCD holes
         translate([gopro_width + spacing, 0, 0]) { // Offset to put CCD right of gopro
             // Upper
@@ -115,7 +115,7 @@ module gopro_mount() {
 
         translate([strap_offset, -0.2, -0.2])
             cube([strap_width, gopro_depth + 0.4, strap_height + 0.2]);
-    }    
+    }
 }
 
 module gopro_holder() {

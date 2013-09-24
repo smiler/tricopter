@@ -6,7 +6,7 @@ width = 30;
 length = 80;
 arm_width = 10;
 arm_mount_hole_length = 1.6;   // Rectangular arm mounting hole width
-arm_mount_hole_width = 3.5;  // Rectangular arm mounting hole length
+arm_mount_hole_width = 3.5;    // Rectangular arm mounting hole length
 
 module main() {
     leg();
