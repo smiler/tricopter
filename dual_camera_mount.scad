@@ -7,7 +7,7 @@ plate_hole_offset  = 2; // I use small cutouts on my plate to prevent slipping.
                         // The value here will be substracted from the
                         // platewidth when calucalting hole position.
 
-gopro_angle = 10; // Angle of gopro mount plate
+gopro_angle = 15; // Angle of gopro mount plate
 
 zip_hole_height = 1.6; // Zip tie mounting hole width
 zip_hole_width = 3.5;  // Zip tie mounting hole length
